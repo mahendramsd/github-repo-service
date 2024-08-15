@@ -1,0 +1,3 @@
+com/msd/restservice/RestServiceApplicationTests.class
+com/msd/restservice/controller/OwnerDetailControllerTest.class
+com/msd/restservice/service/OwnerDetailsServiceTest.class

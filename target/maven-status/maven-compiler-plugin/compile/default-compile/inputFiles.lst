@@ -1,0 +1,9 @@
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/RestServiceApplication.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/config/OpenApiConfig.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/config/WebClientConfig.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/controller/OwnerDetailController.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/domain/OwnerDetails.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/dto/GithubOwnerDto.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/repository/OwnerDetailsRepository.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/service/OwnerDetailsService.java
+/Users/mahendrasridayarathna/Project/Assigment/github-repo-service/src/main/java/com/msd/restservice/service/OwnerDetailsServiceImpl.java
