@@ -24,6 +24,11 @@ build : mvn clean install
 
   Run : Spring Boot Run: java -jar restService-0.0.1-SNAPSHOT.jar
 
+## Swagger Documentation
+
+  http://localhost:8080/swagger-ui/index.html
+ 
+
 ## Deployment 
  
     
