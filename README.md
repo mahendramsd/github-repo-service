@@ -1,4 +1,4 @@
-# RestService
+# GitHub Repo Service
 
 ## Overview
 ```markdown
@@ -18,70 +18,19 @@ RestService is a Spring Boot application that provides RESTful web services. It 
 ## Configuration
 - Maven 3.8.1 or higher
 
-The application is configured using `application.yml` file located in `src/main/resources`. Below is a sample configuration:
+## Run Commands
 
-```yaml
-spring:
-## Configuration
-  application:
-    name: restService
+build : mvn clean install
 
-The application is configured using `application.yml` file located in `src/main/resources`. Below is a sample configuration:
+  Run : Spring Boot Run: java -jar restService-0.0.1-SNAPSHOT.jar
 
-```yaml
-spring:
-  datasource:
-    url: jdbc:h2:mem:testdb
-  application:
-    name: restService
-
-    driver-class-name: org.h2.Driver
-    username: sa
-  datasource:
-    url: jdbc:h2:mem:testdb
-    password: password
-    jpa:
-      hibernate:
-    driver-class-name: org.h2.Driver
-    username: sa
-        ddl-auto: create-drop
-      show-sql: true
-      properties:
-        hibernate:
-    password: password
-    jpa:
-      hibernate:
-        ddl-auto: create-drop
-          dialect: org.hibernate.dialect.H2Dialect
-
-  h2:
-    console:
-      show-sql: true
-      properties:
-        hibernate:
-      enabled: true
-
-server:
-  port: 8080
-
-logging:
-  level:
-          dialect: org.hibernate.dialect.H2Dialect
-
-  h2:
-    console:
-    root: info
-    com.msd.restservice: debug
-      enabled: true
-
-server:
-  port: 8080
-
-logging:
-  level:
-  pattern:
-    root: info
-    com.msd.restservice: debug
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
-  file:
-    name: logs/restservice.log
+## Deployment 
+ 
+    
+    Docker : 
+  
+          docker build -t restService:latest .
+          
+          docker push mahenmsd/restService:latest
+          
+          docker run -p 8080:8080 -d --name restService mahenmsd/restService:latest
