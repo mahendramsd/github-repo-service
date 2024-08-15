@@ -1,0 +1,9 @@
+com/msd/restservice/config/WebClientConfig.class
+com/msd/restservice/service/OwnerDetailsServiceImpl.class
+com/msd/restservice/RestServiceApplication.class
+com/msd/restservice/controller/OwnerDetailController.class
+com/msd/restservice/service/OwnerDetailsService.class
+com/msd/restservice/repository/OwnerDetailsRepository.class
+com/msd/restservice/config/OpenApiConfig.class
+com/msd/restservice/dto/GithubOwnerDto.class
+com/msd/restservice/domain/OwnerDetails.class
